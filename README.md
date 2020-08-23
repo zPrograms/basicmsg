@@ -1,2 +1,5 @@
-# basicmsg
-A basic msg, but personalizable and good.
+# Basic msg
+
+This is the readme about the basic msg.
+
+# Introduction
