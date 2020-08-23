@@ -1,0 +1,43 @@
+#
+# BasicMsg by zProgramm
+# Version: 1.0
+#
+
+#  List of variables:
+#
+#  %arg-1%: The sender.
+#  %player%: You.
+#  %message%: [OBLIGATORY]: The message, obviously.
+#  %usage&: The usage of the command.
+#
+
+config:
+
+  prefix: "&a[Bmsg] &8|"
+  variable: "%c"
+
+  pm-player: "%c &fYou &8> &f%arg-1% &8: &f%message%"
+  pm-arg-1: "%c &f%player% &8> &fYou &8: &f%message%"
+  reply-msg: "%c &f%arg-1% &8> &f%player% &8: &f%message%"
+
+  perms:
+    reload: msg.reload
+
+  messages:
+    help:
+      - "%c &fPlugin help 1/1"
+      - "&f/msg [<player>] [<message>] &8: &fTo send a private message."
+      - "&f/reply [<message>] &8: &fTo reply."
+      - "&f/bmsg reload &8: &fTo reload the plugin."
+    load: "%c &fReloading plugin..."
+    reload: "%c &fPlugin reloaded!"
+
+  error:
+    console: "%c &fYou can't use this command in the console."
+    offline: "%c &fThat player is not online."
+    same-player: "%c &fYou cant talk to yourself."
+    no-arg1: "%c &fUsage: "
+    no-arg2: "%c &fAnd the message?"
+    unknown-arg: "%c &fUnknown args. Usage:"
+    no-perms: "%c &fYou don't have permission to do this."
+    no-reply: "%c &fYou didn't talk with anyone."

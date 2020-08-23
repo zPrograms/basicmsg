@@ -1,0 +1,17 @@
+main: zProgram.code.BasicMsg
+name: BasicMsg
+version: 1.0
+author: zProgramm
+softdepend: [PlaceholderAPI]
+api-version: 1.13
+
+commands:
+  msg:
+    description: To message a player.
+    aliases: [p, pm, message]
+  bmsg:
+    description: Help of the plugin.
+    aliases: [basicmsg, bm]
+  r:
+    description: To reply.
+    aliases: reply
